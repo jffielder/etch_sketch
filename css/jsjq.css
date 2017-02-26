@@ -1,33 +1,41 @@
 
 .container{
-	display: block;
+	display: inline-block;
+	position:absolute;
     margin: auto;
-    width: 500px;
-    height:500px;
-    text-align: center;
+    border:2px solid black;
+    left:37%;
+    right:37%;
+    padding-left:8px;
 }
 
 .columns {
-	width:30;
-	height:30;
-	margin:1px;
-	padding:5px;
+	
+
 
 	display:block;
 
 }
 
 .rows{
-	margin:1px;
 	display: inline-block;
-	border: 2px solid black;
+	width:15 px;
+	height:15 px;
+	padding:15px;
 }
 
 
-#colorOn {
+.colorOn {
 	background-color:black;
 }
 
-#colorReset {
+.colorReset {
 	background-color:white;
+}
+
+button {
+	display:block;
+	margin:auto;
+	margin-bottom:10 px;
+
 }

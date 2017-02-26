@@ -13,10 +13,12 @@ $(document).ready(function(){
 	for (var j = 0; j < rows ; j++) {
 		//$(".container div").append("<div>set</div>");
 
-		$(".columns").append("<div class=rows id=blok>sss</div>");
+		$(".columns").append("<div class=rows id=blok></div>");
 	}
 	
-	$("")
+	$(".rows").hover(function(){
+		$(this).addClass("colorOn");
+	});	
 	
 
 });
