@@ -6,6 +6,13 @@
 	height:400px;
 }
 
+.buttons{
+	display: block;
+	margin-right: auto;
+	margin-left:auto;
+	text-align: center;
+}
+
 .box {
 	
 	background-color:white;
@@ -17,11 +24,4 @@
 
 .hoverOn{
 	background-color:black;
-}
-
-button{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top:5em;
 }
