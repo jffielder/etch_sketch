@@ -7,10 +7,21 @@
 }
 
 .box {
-	display:inline-block;
-	background-color:red;
+	
+	background-color:white;
 	width:25px;
 	height:25px;
 	margin:0px;
-	float:none;
+	float:left;
+}
+
+.hoverOn{
+	background-color:black;
+}
+
+button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5em;
 }
